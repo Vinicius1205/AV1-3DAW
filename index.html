@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+        </head>
+        <body>
+        <form action="criar.php" method="POST">
+
+            <label for="produto">Selecione o produto: </label><br>
+            <select name="produto" id="produto">
+            <option value="1" id="100">(Cachos Exuberantes) - Shampoo Cachos 250 Ml</option>
+            <option value="2" id="101">(Cachos Exuberantes)  - Condicionador 250 Ml</option>
+            <option value="3" id="102">(Liso Perfeito)  - Shampoo Alisador 250 Ml</option>
+            <option value="4" id="103">(Liso Perfeito) - Condicionador 250 Ml</option>
+            <option value="5" id="104">(Restauracao Extraordinaria)  - Condicionador 250 Ml</option>
+            <option value="6" id="105">(Hidratacao Imediata)  - Shampoo Hidratante 250 Ml</option>
+
+            <label for="quantidade">Quantidade: </label>
+            <input type="number" id="quant" name="quant" min="1" max="1000">
+
+            <input type="submit" value="Adicionar ao carrinho">
+
+            <a href="listarCarrinho.php">Listar o carrinho</a>
+
+    </form>
+
+        </body>
+
+    </html>
